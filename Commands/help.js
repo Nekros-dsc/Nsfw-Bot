@@ -4,7 +4,7 @@ exports.help = {
   name: 'help',
   aliases: ['h', 'aide'],
   description: 'Displays the list of commands.',
-  use: 'help',
+  use: 'help [command]',
 }
 
 exports.run = async (bot, message, args, config) => {
